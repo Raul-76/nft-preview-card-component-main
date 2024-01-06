@@ -37,7 +37,7 @@ body{
 
 
 .container{
-    width: 18.75rem;
+    max-width: min(90%,18.75rem);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
